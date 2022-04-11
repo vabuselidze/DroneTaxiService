@@ -15,7 +15,7 @@ namespace DroneTaxiService.Models
 
         public double RiseUpSpeed { get; set; }
         public double DescendSpeed { get; set; }
-        public double StraigntLineFlySpeed { get; set; }
+        public double StraightLineFlySpeed { get; set; }
 
        
         //  Altitudes are initialized in Feets

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DroneTaxiService
-build_property.ProjectDir = C:\Users\vabuselidze\Desktop\Correct\DroneTaxiService\DroneTaxiService\
+build_property.ProjectDir = C:\Users\vabuselidze\source\repos\DroneTaxiService\DroneTaxiService\

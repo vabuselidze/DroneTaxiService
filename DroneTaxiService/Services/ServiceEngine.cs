@@ -110,7 +110,7 @@ namespace DroneTaxiService.Services
             _availableFlightAltitudes.RemoveAt(0);
             int flightDurationInMinutes = (int)(Math.Ceiling(Helper.CalcMinutesForFeets(availableFlightAltitudes.Altitude, _params.RiseUpSpeed) +
                                  Helper.CalcMinutesForFeets(availableFlightAltitudes.Altitude, _params.DescendSpeed) +
-                                 Helper.CalcMinutes(Helper.GetRandomNumber(_params.MinRequestedTravelDistance, _params.MaxRequestedTravelDistance), _params.StraigntLineFlySpeed)));
+                                 Helper.CalcMinutes(Helper.GetRandomNumber(_params.MinRequestedTravelDistance, _params.MaxRequestedTravelDistance), _params.StraightLineFlySpeed)));
 
             drone.DroneState = new FlightState()
             {
